@@ -13,10 +13,10 @@ Funny multiplayer pixel drawing game. One of the graduation activities of Inform
   - [ ] 账号管理系统：管理每个用户的账号和密码
   - [ ] 安全系统：选做
 - [ ] UI  界面
-  - [ ] 全局 UI 界面：在这个界面可以看到所有用户的绘制作品。下方还附有一个输入框。可以输入一些命令或键入评论。
-        <center><img src = /images/0.png width = 50%></center>
-  - [ ] 个人工作区 UI 界面：用户自己的工作区界面，包括工具栏和作图板。
-        <center><img src = /images/1.png width = 50%></center>
+  - [ ] 全局 UI 界面：在这个界面可以看到所有用户的绘制作品。下方还附有一个输入框，可以输入一些命令或键入评论。
+        <center><img src = /images/0.png width = 30%></center>
+  - [ ] 个人工作区 UI 界面：用户自己的工作区界面，包括工具栏和作图板，下方应该也附有一个输入框，可以输入一些命令。
+        <center><img src = /images/1.png width = 30%></center>
 - [ ] 主要功能
   - [ ] 全局 UI 界面实现功能
     - [ ] 支持缩放
