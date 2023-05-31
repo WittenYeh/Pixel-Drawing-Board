@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Pixel-Drawing-Board.iml" filepath="$PROJECT_DIR$/.idea/Pixel-Drawing-Board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infoplace.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infoplace.main.iml" />
     </modules>
   </component>
 </project>
