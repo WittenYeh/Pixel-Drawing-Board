@@ -3,24 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
-        </processorPath>
-        <module name="infoplace.main" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="code.core" target="1.7" />
-      <module name="code.core.main" target="1.7" />
-      <module name="code.core.test" target="1.7" />
-      <module name="code.desktop" target="1.8" />
-      <module name="code.desktop.main" target="1.8" />
-      <module name="code.desktop.test" target="1.8" />
-      <module name="code.html" target="1.7" />
-      <module name="code.html.main" target="1.7" />
-      <module name="code.html.test" target="1.7" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7" />
   </component>
 </project>

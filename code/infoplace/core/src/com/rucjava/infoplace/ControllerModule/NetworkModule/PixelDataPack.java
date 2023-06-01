@@ -1,6 +1,6 @@
 package com.rucjava.infoplace.ControllerModule.NetworkModule;
 
-import com.rucjava.infoplace.ModelModule.DataUtils.RGBColor;
+import com.rucjava.infoplace.ModelModule.ModelUtils.RGBColor;
 
 // 用来发送的像素块数据包
 public class PixelDataPack {

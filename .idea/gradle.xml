@@ -4,10 +4,13 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/infoplace" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/code" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/infoplace" />
+            <option value="$PROJECT_DIR$/code" />
+            <option value="$PROJECT_DIR$/code/core" />
+            <option value="$PROJECT_DIR$/code/desktop" />
+            <option value="$PROJECT_DIR$/code/html" />
           </set>
         </option>
       </GradleProjectSettings>

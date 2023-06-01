@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38c5a0d1-65bf-41d9-ae8a-e35b24b0b9a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pixel-Drawing-Board.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/infoplace.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/badlogic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/InfoPlaceGame.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ControllerModule/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ControllerModule/ListenerUtils/MyClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ControllerModule/ListenerUtils/MyInputListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ControllerModule/Reporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/InfoPlaceGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/DataUtils/Comments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/DataUtils/RGBColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/DataUtils/RGBPixel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/DrawBoardModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/CommentDataPack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/DownloadSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/InfoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/LogInSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/PixelDataPack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/SignUpSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/SignalSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ModelModule/NetworkModule/UploadSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ObjectPool/ControllerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/ObjectPool/RendererPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/ImageBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/RenderUtils/BackgroundRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/RenderUtils/DrawBoardRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/RenderUtils/Renderable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/RenderUtils/RendererStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/RenderUtils/ReporterRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/core/src/com/rucjava/infoplace/RendererModule/Renderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/desktop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/desktop/src/com/rucjava/infoplace/DesktopLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/Flow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/Flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/Flow.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/FlowBootstrap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/FlowBootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/FlowClient.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/FlowClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/comboBoxConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/contextMenuConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/contextMenuTargetConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/datepickerConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/dndConnector-es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/dndConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/flow-component-directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/flow-component-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/gridConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/lit-renderer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/lumo-includes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/material-includes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/menubarConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/messageListConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/selectConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/tooltip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-big-decimal-field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/License.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/component-picker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/component-util.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/copy-to-clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/shim.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-dev-tools/vaadin-dev-tools.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-grid-flow-selection-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-time-picker/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/vaadin-time-picker/timepickerConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/jar-resources/virtualListConnector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/generated/vaadin-featureflags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/src/com/rucjava/infoplace/GdxDefinition.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/src/com/rucjava/infoplace/GdxDefinitionSuperdev.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/src/com/rucjava/infoplace/client/HtmlLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/html/webapp/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/rucjava/infoplace/InfoplaceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/test/java/com/rucjava/infoplace/InfoplaceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/code">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/infoplace">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/code">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="code" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QaFiCHolORNJdAJzzJVu029cWl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/GitHub/Pixel-Drawing-Board/code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;df0a35f53df24c64ed8c68a436a0706c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="I:/GitHub/Pixel-Drawing-Board/infoplace [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/code" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.I:/GitHub/Pixel-Drawing-Board/infoplace [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38c5a0d1-65bf-41d9-ae8a-e35b24b0b9a8" name="Changes" comment="" />
+      <created>1685583912596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685583912596</updated>
+      <workItem from="1685583913844" duration="31000" />
+      <workItem from="1685584282864" duration="233000" />
+      <workItem from="1685585043160" duration="558000" />
+      <workItem from="1685585769520" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>

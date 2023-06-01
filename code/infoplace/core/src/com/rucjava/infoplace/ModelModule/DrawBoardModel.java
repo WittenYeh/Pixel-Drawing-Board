@@ -1,6 +1,6 @@
 package com.rucjava.infoplace.ModelModule;
 
-import com.rucjava.infoplace.ModelModule.DataUtils.RGBPixel;
+import com.rucjava.infoplace.ModelModule.ModelUtils.RGBPixel;
 
 import static java.lang.Math.min;
 

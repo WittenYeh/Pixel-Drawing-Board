@@ -1,10 +1,9 @@
 package com.rucjava.infoplace.ObjectPool;
 
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.rucjava.infoplace.RendererModule.ImageBox;
-
-import java.awt.*;
+import com.rucjava.infoplace.RendererModule.RenderUtils.ImageBox;
 
 public class RendererPool {
     private final static SpriteBatch batch;
@@ -24,5 +23,8 @@ public class RendererPool {
     }
     public static ShapeRenderer shapeRendererInject() {
         return shapeRenderer;
+    }
+    public static Sprite spriteInject(String imageName) {
+        return imageBox.get(imageName);
     }
 }
