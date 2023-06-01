@@ -9,4 +9,9 @@ public class UploadSystem {
     public void uploadComment(String tarPictureName, String comment) {
 
     }
+
+    // 上传请求
+    public void submitRequest() {
+
+    }
 }
