@@ -1,4 +1,4 @@
-package com.rucjava.infoplace.ControllerModule.NetworkModule;
+package com.rucjava.infoplace.ControllerModule.NetworkModule.NetworkUtils;
 
 public enum InfoType {
     LOGIN,

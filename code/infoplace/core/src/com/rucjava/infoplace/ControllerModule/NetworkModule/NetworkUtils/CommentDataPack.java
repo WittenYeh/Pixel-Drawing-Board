@@ -1,4 +1,4 @@
-package com.rucjava.infoplace.ControllerModule.NetworkModule;
+package com.rucjava.infoplace.ControllerModule.NetworkModule.NetworkUtils;
 
 import com.rucjava.infoplace.ModelModule.ModelUtils.Comments;
 

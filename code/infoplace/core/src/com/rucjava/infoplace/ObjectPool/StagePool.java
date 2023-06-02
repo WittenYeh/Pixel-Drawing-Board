@@ -27,13 +27,13 @@ public class StagePool {
     }
 
     private StagePool() {}
-    public Stage classRoomStageInject() {
+    public static Stage classRoomStageInject() {
         return classRoomStage;
     }
-    public Stage deskStageInject() {
+    public static Stage deskStageInject() {
         return deskStage;
     }
-    public Stage blackboardStageInject() {
+    public static Stage blackboardStageInject() {
         return blackboardStage;
     }
 }

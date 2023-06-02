@@ -1,5 +1,7 @@
 package com.rucjava.infoplace.ControllerModule.NetworkModule;
 
+import com.rucjava.infoplace.ControllerModule.NetworkModule.NetworkUtils.PixelDataPack;
+
 public class UploadSystem {
     public void uploadPixels(PixelDataPack dataPack) {
 

@@ -1,5 +1,6 @@
 package com.rucjava.infoplace.ControllerModule.NetworkModule;
 
+import com.rucjava.infoplace.ControllerModule.NetworkModule.NetworkUtils.InfoType;
 import com.rucjava.infoplace.ControllerModule.Reporter;
 
 public class SignalSender {

@@ -18,27 +18,27 @@ public class MyInputListener extends InputListener {
         switch (keycode) {
             case Input.Keys.A: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(EventType.LEFT);
+                this.sendEvent(EventType.LEFT);
                 break;
             }
             case Input.Keys.W: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(EventType.UP);
+                this.sendEvent(EventType.UP);
                 break;
             }
             case Input.Keys.S: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(EventType.DOWN);
+                this.sendEvent(EventType.DOWN);
                 break;
             }
             case Input.Keys.D: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(EventType.RIGHT);
+                this.sendEvent(EventType.RIGHT);
                 break;
             }
             case Input.Keys.ENTER: {
                 Gdx.app.log(classTag, "User press Enter");
-                this.sendKeyEvent(EventType.ENTER);
+                this.sendEvent(EventType.ENTER);
                 break;
             }
             default: {
@@ -48,8 +48,14 @@ public class MyInputListener extends InputListener {
         }
         return super.keyDown(event, keycode);
     }
+
+    @Override
+    public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+        return super.touchDown(event, x, y, pointer, button);
+    }
+
     // 将事件发送给事件处理组
-    public void sendKeyEvent(EventType event) {
+    public void sendEvent(EventType event) {
 
     }
 }
