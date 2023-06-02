@@ -1,5 +1,7 @@
 package com.rucjava.infoplace.ModelModule.ModelUtils;
 
+import com.rucjava.infoplace.ControllerModule.ControllerUtils.RGBColor;
+
 public class RGBPixel extends RGBColor {
     private double squareLength;
     private double posx;

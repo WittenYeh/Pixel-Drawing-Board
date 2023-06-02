@@ -1,4 +1,6 @@
-package com.rucjava.infoplace.ModelModule.ModelUtils;
+package com.rucjava.infoplace.ControllerModule.ControllerUtils;
+
+import com.rucjava.infoplace.ModelModule.ModelUtils.Constants;
 
 public class RGBColor {
     protected int RValue;
