@@ -1,6 +1,5 @@
-package com.rucjava.infoplace.ControllerModule.NetworkModule;
+package com.rucjava.infoplace.NetworkModule;
 
-import com.rucjava.infoplace.ControllerModule.Reporter;
 import com.rucjava.infoplace.ObjectPool.ControllerPool;
 
 public class LogInSystem {

@@ -2,16 +2,20 @@ package com.rucjava.infoplace.ModelModule;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.rucjava.infoplace.ModelModule.ModelUtils.BackgroundType;
+import com.rucjava.infoplace.ModelModule.ModelUtils.Constants;
 
 public class BackgroundModel {
     private BackgroundType backgroundType;
     private final double posX;
     private final double posY;
-    public void switchBackground(BackgroundType backgroundType) {
-        this.backgroundType = backgroundType;
-    }
     public BackgroundModel() {
-        this.posX = 0;
-        this.posY = 0;
+        this.posX = Constants.DefaultPosX;
+        this.posY = Constants.DefaultPosY;
+    }
+    public void setBackgroundType(BackgroundType type) {
+        this.backgroundType = type;
+    }
+    public BackgroundType getBackgroundType() {
+        return this.backgroundType;
     }
 }

@@ -1,6 +1,9 @@
 package com.rucjava.infoplace.ModelModule;
 
+import com.badlogic.gdx.Gdx;
+import com.rucjava.infoplace.ModelModule.ModelUtils.Constants;
 import com.rucjava.infoplace.ModelModule.ModelUtils.RGBPixel;
+import com.sun.org.apache.bcel.internal.Const;
 
 import static java.lang.Math.min;
 
