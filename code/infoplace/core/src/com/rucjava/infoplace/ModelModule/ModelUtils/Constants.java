@@ -12,6 +12,17 @@ public final class Constants {
     public static final double DefaultSquareLength = 1;
     public static final double DefaultPosX = 0;
     public static final double DefaultPosY = 0;
+    /**
+     * the following height/width attributes are relative value,
+     * because we use the strategy of viewport to scaling.fit
+     * attribute type is float instead of double because
+     */
+    public static final float DeskWidth = 160;
+    public static final float DeskHeight = 90;
+    public static final float BlackboardWidth = 160;
+    public static final float BlackboardHeight = 90;
+    public static final float ClassroomWidth = 160;
+    public static final float ClassroomHeight = 90;
 }
 
 

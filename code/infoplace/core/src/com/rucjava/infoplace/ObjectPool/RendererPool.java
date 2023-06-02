@@ -15,6 +15,7 @@ public class RendererPool {
         imageBox = new ImageBox();
         shapeRenderer = new ShapeRenderer();
     }
+    private RendererPool() {}
     public static SpriteBatch batchInject() {
         return batch;
     }

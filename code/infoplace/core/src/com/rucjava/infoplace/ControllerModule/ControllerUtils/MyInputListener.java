@@ -12,34 +12,33 @@ public class MyInputListener extends InputListener {
     private final String classTag;
     public MyInputListener() {
         this.classTag = this.getClass().getSimpleName();
-
     }
     @Override
     public boolean keyDown(InputEvent event, int keycode) {
         switch (keycode) {
             case Input.Keys.A: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(KeyboardEvent.LEFT);
+                this.sendKeyEvent(EventType.LEFT);
                 break;
             }
             case Input.Keys.W: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(KeyboardEvent.UP);
+                this.sendKeyEvent(EventType.UP);
                 break;
             }
             case Input.Keys.S: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(KeyboardEvent.DOWN);
+                this.sendKeyEvent(EventType.DOWN);
                 break;
             }
             case Input.Keys.D: {
                 Gdx.app.log(classTag, "User press A");
-                this.sendKeyEvent(KeyboardEvent.RIGHT);
+                this.sendKeyEvent(EventType.RIGHT);
                 break;
             }
             case Input.Keys.ENTER: {
                 Gdx.app.log(classTag, "User press Enter");
-                this.sendKeyEvent(KeyboardEvent.ENTER);
+                this.sendKeyEvent(EventType.ENTER);
                 break;
             }
             default: {
@@ -50,7 +49,7 @@ public class MyInputListener extends InputListener {
         return super.keyDown(event, keycode);
     }
     // 将事件发送给事件处理组
-    public void sendKeyEvent(KeyboardEvent event) {
+    public void sendKeyEvent(EventType event) {
 
     }
 }

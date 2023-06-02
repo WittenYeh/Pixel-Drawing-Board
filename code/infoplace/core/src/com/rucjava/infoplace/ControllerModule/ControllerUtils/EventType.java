@@ -1,9 +1,11 @@
 package com.rucjava.infoplace.ControllerModule.ControllerUtils;
 
-public enum KeyboardEvent {
+public enum EventType {
     UP,
     DOWN,
     LEFT,
     RIGHT,
-    ENTER
+    ENTER,
+    CliCK,
+    DRAG
 }

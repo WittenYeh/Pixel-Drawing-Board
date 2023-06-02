@@ -8,7 +8,7 @@ public class ControllerPool {
     static {
         signalSender = new SignalSender();
     }
-
+    private ControllerPool() {}
     public static SignalSender signalSenderInject() {
         return signalSender;
     }
