@@ -9,8 +9,8 @@ public class RGBPixel extends RGBColor {
     public RGBPixel() {
         super();
         this.squareLength = Constants.DefaultSquareLength;
-        this.posx = Constants.DefaultPosX;
-        this.posy = Constants.DefaultPosY;
+        this.posx = Constants.DefaultBottomLayerPosX;
+        this.posy = Constants.DefaultBottomLayerPosY;
     }
     public RGBPixel(int rvalue, int gvalue, int bvalue, double l, int x, int y) {
         super(rvalue, gvalue, bvalue);

@@ -11,7 +11,7 @@ public class DeskScene implements Mainable {
     private Stage stage;
     @Override
     public void setAsMainScene() {
-        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.DeskWidth, Constants.DeskHeight));
+        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.RelativeDeskWidth, Constants.RelativeDeskHeight));
         this.stage.addListener(ControllerPool.inputListenerInject());
         Gdx.input.setInputProcessor(this.stage);
     }

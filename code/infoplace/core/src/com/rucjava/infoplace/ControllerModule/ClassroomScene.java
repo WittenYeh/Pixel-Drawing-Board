@@ -12,7 +12,7 @@ public class ClassroomScene implements Mainable {
     private Stage stage;
 
     public ClassroomScene() {
-        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.ClassroomWidth, Constants.ClassroomHeight));
+        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.RelativeClassroomWidth, Constants.RelativeClassroomHeight));
         this.stage.addListener(ControllerPool.inputListenerInject());
         Gdx.input.setInputProcessor(this.stage);
     }

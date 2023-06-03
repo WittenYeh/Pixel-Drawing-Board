@@ -3,7 +3,6 @@ package com.rucjava.infoplace.ModelModule;
 import com.badlogic.gdx.Gdx;
 import com.rucjava.infoplace.ModelModule.ModelUtils.Constants;
 import com.rucjava.infoplace.ModelModule.ModelUtils.RGBPixel;
-import com.sun.org.apache.bcel.internal.Const;
 
 import static java.lang.Math.min;
 
@@ -33,6 +32,16 @@ public final class DrawBoardModel {
     private double drawAreaHeight;
     private double drawAreaWidth;
     private double pixelLength;
+
+    public DrawBoardModel(int rowNum, int colNum) {
+        this.boardHeight = Constants.DefaultBoardDeskRatio * Gdx.graphics.getHeight();
+        this.boardWidth = Constants.DefaultBoardDeskRatio * Gdx.graphics.getWidth();
+        double hCenter = Gdx.graphics.getHeight() / 2;
+        double wCenter = Gdx.graphics.getWidth() / 2;
+        this.boardPosX = wCenter - this.boardWidth / 2;
+        this.boardPosY = hCenter - this.boardHeight / 2;
+        autoAdjustDrawArea();   // automatically adjust draw area
+    }
 
     public DrawBoardModel(double x, double y, int rowNum, int colNum, double boardHeight, double boardWidth) {
         this.boardPosX = x;
@@ -96,9 +105,10 @@ public final class DrawBoardModel {
     private void copyDrawBoard(RGBPixel[][] newPixels, RGBPixel[][] orgPixels) {
         int orgRowNum = orgPixels.length;
         int orgColNum = (orgPixels[0]).length;
-        for (int r = 0; r < orgRowNum; ++r)
-            for (int c = 0; c < orgColNum; ++c)
+        for (int r = 0; r < orgRowNum; ++r) {
+            for (int c = 0; c < orgColNum; ++c) {
                 newPixels[r][c] = orgPixels[r][c]; // reference-copy / shallow copy
+            }
+        }
     }
-
 }

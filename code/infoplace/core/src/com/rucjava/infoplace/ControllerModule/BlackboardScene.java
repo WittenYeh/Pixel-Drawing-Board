@@ -11,7 +11,7 @@ public class BlackboardScene implements Mainable {
     private Stage stage;
     @Override
     public void setAsMainScene() {
-        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.BlackboardWidth, Constants.BlackboardHeight));
+        this.stage = new Stage(new ScalingViewport(Scaling.fit, Constants.RelativeBlackboardWidth, Constants.RelativeBlackboardHeight));
         this.stage.addListener(ControllerPool.inputListenerInject());
         Gdx.input.setInputProcessor(this.stage);
     }

@@ -1,6 +1,6 @@
 package com.rucjava.infoplace.ModelModule;
 
-public class CharacterModel {
+public class CharactersModel {
     private double posX;
     private double posY;
     private int frameID;  // specify which frame now

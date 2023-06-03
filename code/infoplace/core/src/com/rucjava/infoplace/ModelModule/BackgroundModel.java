@@ -9,8 +9,8 @@ public class BackgroundModel {
     private final double posX;
     private final double posY;
     public BackgroundModel() {
-        this.posX = Constants.DefaultPosX;
-        this.posY = Constants.DefaultPosY;
+        this.posX = Constants.DefaultBottomLayerPosX;
+        this.posY = Constants.DefaultBottomLayerPosY;
     }
     public void setBackgroundType(BackgroundType type) {
         this.backgroundType = type;
