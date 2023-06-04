@@ -1,30 +1,26 @@
 package com.rucjava.infoplace.ModelModule;
 
-public class CharactersModel {
-    private double posX;
-    private double posY;
-    private int frameID;  // specify which frame now
+import com.rucjava.infoplace.ModelModule.ModelUtils.CharacterState;
+import com.rucjava.infoplace.ModelModule.ModelUtils.SingleCharacterModel;
 
-    public void setPosX(int x) {
-        this.posX = x;
+import java.util.HashMap;
+
+public class CharactersModel {
+    HashMap<String, SingleCharacterModel> characterModelHashMap;
+
+    public CharactersModel() {
+        this.characterModelHashMap = new HashMap<>();
     }
-    public void setPosY(int y) {
-        this.posY = y;
+
+    public void updateCharacters() {
+        for (SingleCharacterModel singleCharacter : characterModelHashMap.values()) {
+            if (singleCharacter.getCharacterState() == CharacterState.MOVE) {
+                singleCharacter.updateCharacterPosition();
+                singleCharacter.updateCharacterMovement();
+            }
+        }
     }
-    public void setPos(int x, int y) {
-        this.posX = x;
-        this.posY = y;
-    }
-    public double getPosX() {
-        return this.posX;
-    }
-    public double getPosY() {
-        return this.posY;
-    }
-    public void setFrameID(int frameID) {
-        this.frameID = frameID;
-    }
-    public int getFrameID() {
-        return this.frameID;
+    public void setCharacterState(String characterName, CharacterState newState) {
+        characterModelHashMap.get(characterName).setCharacterState(newState);
     }
 }

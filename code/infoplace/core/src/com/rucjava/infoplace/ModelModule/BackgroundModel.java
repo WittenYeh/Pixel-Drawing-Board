@@ -6,8 +6,8 @@ import com.rucjava.infoplace.ModelModule.ModelUtils.Constants;
 
 public class BackgroundModel {
     private BackgroundType backgroundType;
-    private final double posX;
-    private final double posY;
+    private final float posX;
+    private final float posY;
     public BackgroundModel() {
         this.posX = Constants.DefaultBottomLayerPosX;
         this.posY = Constants.DefaultBottomLayerPosY;

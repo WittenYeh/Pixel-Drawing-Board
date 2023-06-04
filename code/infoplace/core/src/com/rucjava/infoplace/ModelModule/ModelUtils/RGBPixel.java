@@ -3,35 +3,35 @@ package com.rucjava.infoplace.ModelModule.ModelUtils;
 import com.rucjava.infoplace.ControllerModule.ControllerUtils.RGBColor;
 
 public class RGBPixel extends RGBColor {
-    private double squareLength;
-    private double posx;
-    private double posy;
+    private float squareLength;
+    private float posx;
+    private float posy;
     public RGBPixel() {
         super();
         this.squareLength = Constants.DefaultSquareLength;
         this.posx = Constants.DefaultBottomLayerPosX;
         this.posy = Constants.DefaultBottomLayerPosY;
     }
-    public RGBPixel(int rvalue, int gvalue, int bvalue, double l, int x, int y) {
+    public RGBPixel(int rvalue, int gvalue, int bvalue, float l, int x, int y) {
         super(rvalue, gvalue, bvalue);
         this.squareLength = l;
         this.posx = x;
         this.posy = y;
     }
-    public void setSquareLength(double l) {
+    public void setSquareLength(float l) {
         this.squareLength = l;
     }
-    public void setPos(double x, double y) {
+    public void setPos(float x, float y) {
         this.posx = x;
         this.posy = y;
     }
-    public double getPosx() {
+    public float getPosX() {
         return this.posx;
     }
-    public double getPosy() {
+    public float getPosY() {
         return this.posy;
     }
-    public double getSquareLength() {
+    public float getSquareLength() {
         return this.squareLength;
     }
 }

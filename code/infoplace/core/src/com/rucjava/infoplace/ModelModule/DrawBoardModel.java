@@ -19,31 +19,39 @@ import static java.lang.Math.min;
  * : '+' is (0,0) pixel and '*' is (1,1) pixel
  */
 public final class DrawBoardModel {
-    private double boardPosX;    // position of left edge of draw board
-    private double boardPosY;    // position of right edge of draw board
-    private double boardHeight;
-    private double boardWidth;
+    private float boardPosX;    // position of left edge of draw board
+    private float boardPosY;    // position of right edge of draw board
+    private float boardHeight;
+    private float boardWidth;
     private int rowNum;
     private int colNum;
     private RGBPixel[][] pixels;
     // automatically adjust value:
-    private double drawAreaPosX;
-    private double drawAreaPosY;
-    private double drawAreaHeight;
-    private double drawAreaWidth;
-    private double pixelLength;
+    private float drawAreaPosX;
+    private float drawAreaPosY;
+    private float drawAreaHeight;
+    private float drawAreaWidth;
+    private float pixelLength;
+
+    public int getRowNum() {
+        return this.rowNum;
+    }
+
+    public int getColNum() {
+        return this.colNum;
+    }
 
     public DrawBoardModel(int rowNum, int colNum) {
         this.boardHeight = Constants.DefaultBoardDeskRatio * Gdx.graphics.getHeight();
         this.boardWidth = Constants.DefaultBoardDeskRatio * Gdx.graphics.getWidth();
-        double hCenter = Gdx.graphics.getHeight() / 2;
-        double wCenter = Gdx.graphics.getWidth() / 2;
+        float hCenter = Gdx.graphics.getHeight() / 2;
+        float wCenter = Gdx.graphics.getWidth() / 2;
         this.boardPosX = wCenter - this.boardWidth / 2;
         this.boardPosY = hCenter - this.boardHeight / 2;
         autoAdjustDrawArea();   // automatically adjust draw area
     }
 
-    public DrawBoardModel(double x, double y, int rowNum, int colNum, double boardHeight, double boardWidth) {
+    public DrawBoardModel(float x, float y, int rowNum, int colNum, float boardHeight, float boardWidth) {
         this.boardPosX = x;
         this.boardPosY = y;
         this.rowNum = rowNum;
@@ -58,7 +66,7 @@ public final class DrawBoardModel {
         this.boardPosY = y;
         autoAdjustDrawArea();
     }
-    public void boardResize(int boardHeight, int boardWidth) {
+    public void boardResize(float boardHeight, float boardWidth) {
         this.boardHeight = boardHeight;
         this.boardWidth = boardWidth;
         autoAdjustDrawArea();
@@ -76,12 +84,13 @@ public final class DrawBoardModel {
         return pixels;
     }
 
+    // automatically adjust pixelLength, drawAreaHeight, drawAreaWidth
     private void autoAdjustDrawArea() {
         this.pixelLength = min(this.boardWidth/this.colNum, this.boardHeight/this.rowNum);
         this.drawAreaHeight = this.pixelLength * this.rowNum;
         this.drawAreaWidth = this.pixelLength * this.colNum;
-        double drawBoardHeightCenter = this.boardPosY + this.boardHeight/2;
-        double drawBoardWidthCenter = this.boardPosX + this.boardWidth/2;
+        float drawBoardHeightCenter = this.boardPosY + this.boardHeight/2;
+        float drawBoardWidthCenter = this.boardPosX + this.boardWidth/2;
         this.drawAreaPosX = drawBoardWidthCenter - this.colNum/2*pixelLength;
         this.drawAreaPosY = drawBoardHeightCenter - this.rowNum/2*pixelLength;
         updateAllPixelLength();
@@ -101,13 +110,18 @@ public final class DrawBoardModel {
             }
         }
     }
-    // Attention: orgPixels should be larger than newPixels
+
     private void copyDrawBoard(RGBPixel[][] newPixels, RGBPixel[][] orgPixels) {
         int orgRowNum = orgPixels.length;
         int orgColNum = (orgPixels[0]).length;
-        for (int r = 0; r < orgRowNum; ++r) {
-            for (int c = 0; c < orgColNum; ++c) {
-                newPixels[r][c] = orgPixels[r][c]; // reference-copy / shallow copy
+        int newRowNum = newPixels.length;
+        int newColNum = (newPixels[0]).length;
+        for (int r = 0; r < newRowNum; ++r) {
+            for (int c = 0; c < newColNum; ++c) {
+                if (r < orgRowNum && c < orgColNum)
+                    newPixels[r][c] = orgPixels[r][c]; // reference-copy / shallow copy
+                else
+                    newPixels[r][c] = new RGBPixel();  // initialize with default color
             }
         }
     }
